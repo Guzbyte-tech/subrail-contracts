@@ -1,4 +1,5 @@
 #![no_std]
+pub mod errors;
 use soroban_sdk::{contract, contractimpl, vec, Env, String, Vec};
 
 #[contract]
